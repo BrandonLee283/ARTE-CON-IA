@@ -1,1 +1,1 @@
-"web: flask init-db && gunicorn app:app" 
+web: guinicorn app:app
