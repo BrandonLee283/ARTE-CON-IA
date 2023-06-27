@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html style="height: 50%;">
+<head>
+  <title>Imagen Generada</title>
+</head>
+<body style="height: 100%;">
+  <h1 style="margin-left: 34%;">Imagen Generada</h1>
+  <div id="image-box">
+    <img style="text-align: center; margin-left: 40%;" src="data:image/jpeg;base64,{{ image_data }}" alt="Imagen renderizada">
+  </div>
+  <a href="{{ url_for('index') }}" style="margin-left: 34%;">Regresar</a>
+</body>
+</html>
